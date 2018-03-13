@@ -1,0 +1,27 @@
+body{
+	background-color: white;
+}
+h1{
+	text-align-last: center;
+	margin-bottom: 40px;
+}
+h2{
+	text-align-last: center;
+	margin-bottom: 40px;
+}
+
+.col{
+	background-color: white;
+}
+.row{
+		background-color: white;
+
+}
+.columna1{
+	border-right: 1px solid rgb(22, 90, 75);
+}
+img{
+	margin:auto;
+		margin-bottom: 40px;
+
+}

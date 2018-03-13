@@ -1,0 +1,36 @@
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<title>Document</title>
+	</head>
+	<body>
+	<div class="container columna-general">
+		<div class="row">
+			<div class="col"><h1>Piedra,Papel o Tijeras</h1>
+			<h2  id="alerta" class="h4 alert alert-success"></h2>
+			</div>
+		</div>
+		<div class="row justify-content-around">
+			<div class="col-lg-5  col-sm-5 columna1" id="clumna1">
+				<h2>Jugador-1</h2>
+				<img src="img/1.jpg" id="jg1" class="img-fluid imagen-jugador1" alt="" width="300" height="300">
+				<br>
+				<button class="btn" id="tijera" value="tijera" onclick="tijeraF()">Tijera</button>
+				<button class="btn" id="piedra" value="piedra" onclick="piedraF()">Piedra</button>
+				<button class="btn" id="papel" value="papel" onclick="papelF()">Papel</button>
+			</div>
+			<div class="col-lg-5 col-sm-6 columna">
+				<h2>Computadora</h2>
+				<img src="img/1.jpg" id="computadora" class="img-fluid imagen-computadora" alt="" width="300" height="300">
+			</div>
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>	
+	<script src="js.js"></script>
+	</body>
+	</html>
